@@ -1,0 +1,44 @@
+body{
+    background-color: #79C6D3;
+    
+}
+hr{
+    color: aliceblue;
+}
+
+.center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.astro_1{
+    width: 270px;
+    height: 500px;
+    
+}
+
+p{
+    float: left;
+    line-height: 1.5rem;
+}
+
+.contact{
+    position: relative;
+}
+
+.contact_img{
+  width: 40%;
+  display: inline-block;
+  position: absolute;
+  top: 15%;
+  bottom: 5px;
+}
+
+.contact-me{
+    display: flex;
+    flex-direction: column;
+    position:absolute;
+    left: 900px;
+}
